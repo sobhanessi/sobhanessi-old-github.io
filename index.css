@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+*{font-family: 'Source Code Pro', monospace;}
+
+html {
+    scroll-behavior: smooth;
+    }
+
+    
+    @media (max-width:750px){
+
+        body{
+            
+            background-color:  rgb(45, 46, 48);
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment:fixed;
+            background-size:cover;
+
+        }
+
+		.navclass{
+
+            margin:10px 5px 0 0;
+
+        }
+		
+		 .searchfromli{
+  
+            color:black;
+            float: center;
+            
+            
+          }
+		
+		#indexparagraph {
+		
+			position:fixed;
+			top:50%;
+			left:0;
+			width:100%;
+			text-align:center;
+			
+			color:rgb(0, 195, 54);
+		
+		
+		}
+		.aclass{
+			
+			
+	   		padding: 0 5px 0 5px;
+			
+        		text-decoration:none;
+        		background-size:auto;
+        		background-repeat:no-repeat;
+       		color:white;
+
+
+    		}
+		
+		
+	}
+
+
+    @media (min-width:751px){
+
+        body{
+            
+            background-color: rgb(45, 46, 48);
+	        background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment:fixed;
+            background-size:cover;
+
+        }
+
+        .navclass{
+
+            margin:2% 1% 0% 1%;
+
+          
+        }
+
+        .searchfromli{
+  
+            color:black;
+            float: right;
+            
+            
+        }
+		
+		#indexparagraph {
+		
+			position:fixed;
+			top:50%;
+			left:0;
+			width:100%;
+			text-align:center;
+			font-size:20px;
+			color:rgb(0, 195, 54);
+		
+		
+		}
+		
+		.aclass{
+
+	   		padding: 0 10px 0 10px;
+			font-size: 17px;
+        		text-decoration:none;
+        		background-size:auto;
+        		background-repeat:no-repeat;
+       		color:white;
+
+
+    		}
+		
+	}
+
+
+
+    a:link {
+
+        color: rgb(247, 156, 46);
+        text-decoration: none;
+      }
+
+
+    a:visited {
+
+        color: rgb(247, 156, 46);
+        text-decoration: none;
+
+      }
+
+
+    a:hover {
+
+        color: rgb(38, 131, 168);
+        text-decoration: none;
+
+      }
+
+
+    a:active {
+
+        color: blue;
+        text-decoration: none;
+
+      }
+
+  
+    header, section, footer, nav, aside, main, article, figure, form {
+        
+        display: block; 
+      
+      }
+
+    ul li {
+      
+        display: inline;
+        
+      }
+  
+
+    
+    hr{
+
+        color:white;
+
+      }
+
+    .divfornav{
+
+        overflow:hidden;
+    
+    }
+
+    .searchfrom{
+
+        display: inline;
+        color: wheat;
+    }
+
+    .footerclass{
+
+        position:absolute;
+		bottom: 0;
+		align:center;
+		width:100%;
+        text-align:center;
+        display: inline;
+  		align-items: center;
+  		justify-content: center;
+        color:white;
+        
+        
+    }
+	
+	
+	
