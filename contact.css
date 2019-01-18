@@ -5,14 +5,7 @@
 html {
     scroll-behavior: smooth;
     }
-	
-		@media screen and (max-width: 600px){
-		.col-25, .col-75, #formsubmit{
-		
-    			width: 100%;
-   			
-  		}
-		}
+
     
     @media (max-width:750px){
 
@@ -65,7 +58,12 @@ html {
 
     		}
 			
-	
+		.col-25, .col-75, #formsubmit{
+		
+    			width: 100%;
+   			margin-top: 0;
+  		}
+		
 		
 	}
 
