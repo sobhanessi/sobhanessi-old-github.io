@@ -69,28 +69,29 @@ html {
               
               .imgnewspage{
         
-                height:35%; 
+                height:25%; 
                 width:25%;
                 float:left;
-                padding:1px 5px 1px 5px;
+                padding:1px 15px 1px 5px;
                 margin:1px 5px 1px 5px;
         
               }
               .paragraphnewspage{
                 
-                width:50%;
+                width:70%;
                 text-align:justify;
                 margin: 0 auto;
-                padding:2px 15px 5px 10px;
+                padding:2px 15px 5px 20px;
                 color:rgb(255, 255, 240);
         
               }
         
               .headingnewspage{
         
-                width:60%;
+                width:80%;
                 text-align:justify;
                 margin: 0 auto;
+				padding:2px 15px 5px 20px;
                 color:rgb(30, 144, 255);
         
               }
