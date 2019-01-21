@@ -18,6 +18,20 @@ html {
             background-size:cover;
 		
         }
+		
+		    .footerclass{
+
+        position:static;
+		bottom: 0;
+		align:center;
+		width:100%;
+        text-align:center;
+        display: inline;
+  		align-items: center;
+  		justify-content: center;
+        color:white;
+
+    }
 
 		.navclass{
 
@@ -80,6 +94,20 @@ html {
 			
 
         }
+		
+		 .footerclass{
+
+        position:absolute;
+		bottom: 0;
+		align:center;
+		width:100%;
+        text-align:center;
+        display: inline;
+  		align-items: center;
+  		justify-content: center;
+        color:white;
+
+    }
 
         .navclass{
 
@@ -188,19 +216,7 @@ html {
         color: black;
     }
 
-    .footerclass{
 
-        position:static;
-		bottom: 0;
-		align:center;
-		width:100%;
-        text-align:center;
-        display: inline;
-  		align-items: center;
-  		justify-content: center;
-        color:white;
-
-    }
 	
 	
 input[type=text], textarea, input[type=email] {
@@ -246,7 +262,6 @@ label {
   display: inline-block;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
