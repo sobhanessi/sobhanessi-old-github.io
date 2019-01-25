@@ -253,6 +253,9 @@ html {
         overflow:hidden;
 		position:sticky;
 		top:0;
+		width:100%;
+		margin:o auto;
+		
 		background-color:rgb(45, 46, 48);
 		
     

@@ -6,7 +6,9 @@ html {
     scroll-behavior: smooth;
     }
 
-    
+    body{
+		margin:0;
+	}
     @media (max-width:750px){
 
         body{
