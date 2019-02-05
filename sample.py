@@ -7,7 +7,7 @@ def sample(l):
 
     for item in l:
 
-        ll.append(sum(item))
+        ll.append(item)
     return ll
 
 
