@@ -6,28 +6,20 @@ html {
     scroll-behavior: smooth;
     }
 
-    
+    body{
+		margin:0;
+	}
     @media (max-width:750px){
 
         body{
             
             background-color:  rgb(45, 46, 48);
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment:fixed;
+            background-size:cover;
 
         }
-		
-		.footerclass{
-
-        position: static;
-		    bottom: 0;
-		
-		    width:100%;
-        text-align:center;
-        
-  		  align-items: center;
-  		  justify-content: center;
-        color:white;
-    }
-    
 
 		.navclass{
 
@@ -35,7 +27,7 @@ html {
 
         }
 		
-		.searchfromli{
+		 .searchfromli{
   
             color:black;
             float: center;
@@ -43,73 +35,41 @@ html {
             
           }
 		
+		
 		.aclass{
 			
 			
 	   		padding: 0 5px 0 5px;
+			
         		text-decoration:none;
         		background-size:auto;
         		background-repeat:no-repeat;
        		color:white;
 
 
-            }
-            
-            .articlenewspage{
+    		}
+
+        .articlenewspage{
 
                 
-                width:95%;
+                width:90%;
                 margin:10px 15px 5px 15px;
                 padding:5px 5px 5px 5px; 
         
               }
-            .newstopspan{
 
-                
-                width:100%;
-                height: 30%;
-                margin:10px 15px 5px 15px;
-                padding:5px 5px 5px 5px;
-                
-                 
-        
-              }
-
-              #spanleft{
-
-                background-image : url("hardwarefornewsspan.jpeg");
-                display: block;
-                height:70%;
-                width: 80%;
-                margin-right: 5%;
-                margin-left: 5%;
-
-              }
-        
-              #spanright{
-                
-                background-image : url("softwareforspannews.jpg");
-                display: block;
-                height: 70%;
-                width: 80%;
-                margin-right: 5%;
-                margin-left: 5%;
-                
-              }
-        
-              
               .imgnewspage{
         
-                height:25%; 
-                width:25%;
-                float:left;
-                padding:1px 15px 1px 5px;
-                margin:1px 5px 1px 5px;
+                height:80%; 
+                width:55%;
+                float:center;
+                padding:1px 10% 1px 10%;
+                margin:1px 5% 1px 5%;
         
               }
               .paragraphnewspage{
                 
-                width:70%;
+                width:80%;
                 text-align:justify;
                 margin: 0 auto;
                 padding:2px 15px 5px 20px;
@@ -127,11 +87,7 @@ html {
         
               }
 		
-			 .divborder{
-			 	
-				border-left:1px solid white;
-				border-right:1px solid white;
-			 }
+		
 	}
 
 
@@ -140,25 +96,12 @@ html {
         body{
             
             background-color: rgb(45, 46, 48);
-	          background-repeat: no-repeat;
+	        background-repeat: no-repeat;
             background-position: center top;
             background-attachment:fixed;
             background-size:cover;
 
         }
-		
-		.footerclass{
-
-        position: static;
-		bottom: 0;
-		
-		width:100%;
-        text-align:center;
-        
-  		align-items: center;
-  		justify-content: center;
-        color:white;
-    }
 
         .navclass{
 
@@ -175,6 +118,8 @@ html {
             
         }
 		
+    
+		
 		.aclass{
 
 	   		padding: 0 10px 0 10px;
@@ -185,59 +130,21 @@ html {
        		color:white;
 
 
-            }
-        
-              .articlenewspage{
-        
-                width:80%;
-                margin:10px 20px 5px 20%;
-                padding:5px 5px 5px 5px; 
-        
-              } 
+    		}
 
-              .newstopspan{
+            .imgnewspage{
         
-                width:90%;
-                
-                margin:10px 10% 5px 10%;
-                padding:5px 10% 5px 5px;
-                display: inline-block;
-                
-        
-              } 
-
-              #spanleft{
-
-                background-image : url("hardwarefornewsspan.jpeg");
-                float: left;
-                width: 45%;
-                height: 100%;
-                display: block;
-
-              } 
-
-              #spanright{
-
-                background-image : url("softwareforspannews.jpg");
-                float: right;
-                width: 45%;
-                height: 100%;
-                display: block;
-              }
-        
-              .imgnewspage{
-        
-                height:10%; 
-                width:5%;
-                float:left;
+                height:60%; 
+                width:40%;
+                float:center;
                 padding:1px 1px 1px 5px;
-                margin:5px 20px 5px 10px;
+                margin:5px 20% 5px 20%;
         
               }
         
               .paragraphnewspage{
         
-        			width:80%;
+        			  width:80%;
                 text-align:justify;
                 margin:0 auto;
                 padding:20px 1px 5px 1px;
@@ -254,6 +161,7 @@ html {
                 color:rgb(30, 144, 255);
         
               }
+		
 	}
 
 
@@ -312,13 +220,6 @@ html {
     .divfornav{
 
         overflow:hidden;
-		position:sticky;
-		top:0;
-		width:100%;
-		margin:0 auto;
-		
-		background-color:rgb(45, 46, 48);
-		
     
     }
 
@@ -328,4 +229,45 @@ html {
         color: wheat;
     }
 
-    
+      .footerclass{
+
+        position:static;
+		    bottom: 0;
+		    align:center;
+		    width:100%;
+        text-align:center;
+        display: inline;
+  		  align-items: center;
+  		  justify-content: center;
+        color:white;       
+      }
+
+      #subnewstable{
+
+        border-collapse: collapse;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+
+      #subnewstable td, #subnewstable th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        }
+
+      #subnewstable tr
+      {background-color: #f2f2f2;}
+
+      #subnewstable tr:hover {background-color: #ddd;}
+
+      #subnewstable th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #4CAF50;
+        color: white;
+      }
+
+      #subnewstable td{
+        text-align: center;
+      }

@@ -21,19 +21,7 @@ html {
 		
         }
 		
-		.footerclass{
-
-	        position:static;
-			bottom: 0;
-			align:center;
-			width:100%;
-	        text-align:center;
-	        display: inline;
-	  		align-items: center;
-	  		justify-content: center;
-	        color:white;
-
-    }
+		
 
 		.navclass{
 
@@ -80,19 +68,7 @@ html {
 
         }
 		
-		 .footerclass{
 
-        position:static;
-		bottom: 0;
-		align:center;
-		width:100%;
-        text-align:center;
-        display: inline;
-  		align-items: center;
-  		justify-content: center;
-        color:white;
-
-    }
 
         .navclass{
 
@@ -109,60 +85,88 @@ html {
             
         }
 	
-		.aclass{
+		      .aclass{
 
-	   		padding: 0 10px 0 10px;
-			font-size: 17px;
+	   		    padding: 0 10px 0 10px;
+			      font-size: 17px;
         		text-decoration:none;
         		background-size:auto;
         		background-repeat:no-repeat;
-       		color:white;
+       		  color:white;
 
 
     		}
+
+        .imgaboutmepage{
+
+          width: 40%;
+          height:30%;
+          margin: 0 10% 0 10%;
+          
+
+        }
+
+        .articleaboutmepage{
+
+          width: 85%;
+          margin: 0 25% 0 25%;
+          
+        }
+
+        .paragraphaboutmepage{
+
+          color: white;
+          width: 65%;
+
+        }
+
+        .headingaboutmepage{
+
+          color:rgb(30, 144, 255);
+        }
 		
 	}
 
 
 
-    a:link {
+        a:link {
 
-        color: rgb(247, 156, 46);
-        text-decoration: none;
-      }
-
-
-    a:visited {
-
-        color: rgb(247, 156, 46);
-        text-decoration: none;
-
-      }
+            color: rgb(247, 156, 46);
+            text-decoration: none;
+          }
 
 
-    a:hover {
+      a:visited {
 
-        color: rgb(38, 131, 168);
-        text-decoration: none;
+          color: rgb(247, 156, 46);
+          text-decoration: none;
 
-      }
+        }
 
 
-    a:active {
+      a:hover {
 
-        color: blue;
-        text-decoration: none;
+          color: rgb(38, 131, 168);
+          text-decoration: none;
 
       }
 
-  
-    header, section, footer, nav, aside, main, article, figure, form {
-        
+
+      a:active {
+
+          color: blue;
+          text-decoration: none;
+
+      }
+
+    
+      header, section, footer, nav, aside, main, article, figure, form {
+          
         display: block; 
       
       }
 
-    ul li {
+      ul li {
       
         display: inline;
         
@@ -170,20 +174,20 @@ html {
   
 
     
-    hr{
+      hr{
 
         color:white;
 
       }
 
-    .divfornav{
+      divfornav{
 
         overflow:hidden;
-		position:sticky;
-		top:0;
-		background-color:rgb(45, 46, 48);
-    
-    }
+        position:sticky;
+        top:0;
+        background-color:rgb(45, 46, 48);
+        
+      }
 
     .searchfrom{
 
@@ -191,5 +195,18 @@ html {
         color: black;
     }
 
+        .footerclass{
 
+            position:static;
+            bottom: 0;
+            align:center;
+            width:100%;
+            text-align:center;
+            display: inline;
+            align-items: center;
+            justify-content: center;
+            color:white;
+            
+        
+}
 	
