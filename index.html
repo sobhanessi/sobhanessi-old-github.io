@@ -13,44 +13,54 @@
 <meta name="author" content="sobhanessi,Sobhan Esfandyari,Sobhan Esfandiari">
 <meta name="keywords" content="dawshessi, sobhanessi, sobhanesfandiari, Sobhan Esfandiari,Sobhan Esfandyari">
 
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <![endif]-->
-<base target="_blank">
+
 <link href="index.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet"> 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="script.js"></script>
+
+<!---->
+
+
 </head>
 
 <body id="indexbody">
 
-<div class="divfornav">
+<div class="topnav" id="myTopnav">
 
-<nav class="navclass">
-<ul> 
-     <li><a class="aclass" href="contact.html"><i class="fa fa-envelope"></i> Contact </a></li>
-    <li><a class="aclass" href="wikiplus.html"><i class="fa fa-wikipedia-w"></i>  Wiki+ </a></li>
-    <li><a class="aclass" href="index.html"><i class="fa fa-home"></i>  Home </a></li>
-    <li><a class="aclass" href="portfolio.html"><i class="fa fa-book"></i>  Politics </a></li>
-    <li><a class="aclass" href="aboutme.html"><i class="fa fa-paperclip"></i>  About Me </a></li>
-    <li><a class="aclass" href="news.html"><i class="fa fa-rss"></i>  News </a></li>
-    <li><a class="aclass" href="login.html"><i class="fa fa-users"></i>  Login </a></li>
-  
-  <li class="searchfromli">
-    <form action="/action_page.php" class="searchform">
-    <input type="search" name="googlesearch" placeholder="search google : ">
-    <input type="submit" style="color:black">
-    </form>
-  </li>
-</ul>
-</nav>
+    <a class="aclass" href="index.html"><i class="fa fa-home"></i>  Home </a>
+    <a class="aclass" href="contact.html"><i class="fa fa-envelope"></i> Contact </a>
+    <a class="aclass" href="wikiplus.html"><i class="fa fa-wikipedia-w"></i>  Wiki+ </a>
+    <a class="aclass" href="portfolio.html"><i class="fa fa-book"></i>  Politics </a>
+    <a class="aclass" href="aboutme.html"><i class="fa fa-paperclip"></i>  About Me </a>
+    <a class="aclass" href="news.html"><i class="fa fa-rss"></i>  News </a>
+    <a class="aclass" href="login.html"><i class="fa fa-users"></i>  Login </a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i></a>
 
 </div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<!---->
 
 <hr>
 <article id="articleparagraph"> 
@@ -72,7 +82,7 @@
 <p>&copy; 2019 Sobhan Esfandyari | Dawshessi | Sobhanessi</p>
 <p>
   <a href="https://www.github.com/sobhanessi"><img src="github.png"></a>  
-	<a href="https://linkedin.com/in/sobhanesfandyari"><img src="linkedinlogo.png" height="32px" width="32px"></a>	
+  <a href="https://linkedin.com/in/sobhanesfandyari"><img src="linkedinlogo.png" height="32px" width="32px"></a>	
 </p>
 
 </footer>
