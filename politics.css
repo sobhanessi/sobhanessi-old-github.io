@@ -5,20 +5,11 @@
 html {
     scroll-behavior: smooth;
     }
-
     
-    @media (max-width:750px){
-
-        body{
-            
-            width:auto;
-            
-            background-color:  rgb(45, 46, 48);
-
-        }
-        
-        
-        .topnav{
+    
+    @media screen and (max-width:950px) {
+    
+      .topnav{
 
 	    
 	    position:sticky;
@@ -69,6 +60,60 @@ html {
 	    text-align:center;
 	 
 	 }
+    
+    }
+    
+    
+    @media screen and (min-width:951px){
+	
+	  .topnav{
+
+            overflow:hidden;
+	    padding: 1% 10px 10px 5px;
+          
+        }
+	
+	.topnav .icon{
+	
+	  display:none;
+	  
+	  
+	}
+	
+	.topnav a {
+	  
+	  float:center;
+	  text-align:center;
+	  font-size:16px;
+	  padding:0 2% 0 2%;
+	  text-decoration:none;
+	
+	}
+	
+    }
+    
+    @media screen and (max-width:750px){
+
+        body{
+            
+            width:auto;
+            
+            background-color:  rgb(45, 46, 48);
+
+        }
+        
+        
+        
+	 
+	 #iframeid {
+	 
+	    display:block;
+	    float:center;
+	    margin-top:1%;
+	    margin-bottom:1%;
+	    width:100%;
+	 
+	 }
 		
 		.footerclass{
 
@@ -104,40 +149,8 @@ html {
                 padding:5px 5px 5px 5px; 
         
               }
-            .newstopspan{
+            
 
-                
-                width:80%;
-                height: 45%;
-                margin:10px 15px 5px 35px;
-                padding:5px 5px 5px 5px;
-                
-                 
-        
-              }
-
-              #spanleft{
-
-                background-image : url("hardwarefornewsspan.jpeg");
-                display: block;
-                height:80%;
-                width: 90%;
-                margin-right: 5%;
-                margin-left: 5%;
-
-              }
-        
-              #spanright{
-                
-                background-image : url("softwareforspannews.jpg");
-                display: block;
-                height: 80%;
-                width: 90%;
-                margin-right: 5%;
-                margin-left: 5%;
-                
-              }
-        
               
               .imgnewspage{
         
@@ -150,7 +163,7 @@ html {
               }
               .paragraphnewspage{
                 
-                width:70%;
+                width:85%;
                 text-align:justify;
                 margin: 0 auto;
                 padding:2px 15px 5px 20px;
@@ -160,28 +173,31 @@ html {
         
               .headingnewspage{
         
-                width:80%;
+                width:85%;
                 text-align:justify;
                 margin: 0 auto;
-				        padding:2px 15px 5px 20px;
+		padding:2px 15px 5px 20px;
                 color:rgb(30, 144, 255);
         
               }
 		
-			 .divborder{
+	      .divborder{
 			 	
-				border-left:1px solid white;
-				border-right:1px solid white;
-			 }
+		      border-left:1px solid white;
+		      border-right:1px solid white;
+	      
+	      }
 	}
+	
+	
 
 
-    @media (min-width:751px){
+    @media screen and (min-width:751px){
 
         body{
             
             background-color: rgb(45, 46, 48);
-	          background-repeat: no-repeat;
+	    background-repeat: no-repeat;
             background-position: center top;
             background-attachment:fixed;
             background-size:cover;
@@ -189,29 +205,7 @@ html {
         }
         
         
-        .topnav{
-
-            overflow:hidden;
-	    padding: 1% 10px 10px 5px;
-          
-        }
-	
-	.topnav .icon{
-	
-	  display:none;
-	  
-	  
-	}
-	
-	.topnav a {
-	  
-	  float:center;
-	  text-align:center;
-	  font-size:16px;
-	  padding:0 2% 0 2%;
-	  text-decoration:none;
-	
-	}
+        
 		
 		.footerclass{
 
@@ -246,36 +240,7 @@ html {
         
               } 
 
-              .newstopspan{
-        
-                width:90%;
-                
-                margin:10px 10% 5px 10%;
-                padding:5px 10% 5px 5px;
-                display: inline-block;
-                
-        
-              } 
-
-              #spanleft{
-
-                background-image : url("hardwarefornewsspan.jpeg");
-                float: left;
-                width: 45%;
-                height: 100%;
-                display: block;
-
-              } 
-
-              #spanright{
-
-                background-image : url("softwareforspannews.jpg");
-                float: right;
-                width: 45%;
-                height: 100%;
-                display: block;
-              }
-        
+ 
               .imgnewspage{
         
                 height:10%; 
@@ -288,7 +253,7 @@ html {
         
               .paragraphnewspage{
         
-        			width:80%;
+		width:85%;
                 text-align:justify;
                 margin:0 auto;
                 padding:20px 1px 5px 1px;
@@ -298,13 +263,24 @@ html {
         
               .headingnewspage{
                 
-				        width:80%;
+		width:85%;
                 text-align:justify;
                 padding:1px 1px 5px 5px;
-				        margin: 0 auto;
+		margin: 0 auto;
                 color:rgb(30, 144, 255);
         
               }
+	      
+	      #iframeid {
+	      
+		display:block;
+		float:center;
+		margin-top:2%;
+		margin-bottom:2%;
+		width:560px;
+		height:315px;
+	      
+	      }
 	}
 
 
@@ -362,7 +338,7 @@ html {
 
     .topnav{
 
-    overflow:hidden;
+		overflow:hidden;
 		position:sticky;
 		top:0;
 		width:100%;

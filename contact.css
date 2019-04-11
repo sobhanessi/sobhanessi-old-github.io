@@ -5,35 +5,11 @@
 html {
     scroll-behavior: smooth;
     }
-
     
-    @media (max-width:750px){
-
-        body{
-            
-            background-color:  rgb(45, 46, 48);
-            background-repeat: no-repeat;
-            background-position: center top;
-            background-attachment:fixed;
-            background-size:cover;
-		
-        }
-		
-		    .footerclass{
-
-        position:static;
-		bottom: 0;
-		align:center;
-		width:100%;
-        text-align:center;
-        display: inline;
-  		align-items: center;
-  		justify-content: center;
-        color:white;
-
-    }
-
-		.topnav{
+    
+    @media screen and (max-width:950px) {
+    
+      .topnav{
 
 	    
 	    position:sticky;
@@ -84,6 +60,69 @@ html {
 	    text-align:center;
 	 
 	 }
+    
+    }
+    
+    
+    @media screen and (min-width:951px){
+	
+	  .topnav{
+
+            overflow:hidden;
+	    padding: 1% 10px 10px 5px;
+          
+        }
+	
+	.topnav .icon{
+	
+	  display:none;
+	  
+	  
+	}
+	
+	.topnav a {
+	  
+	  float:center;
+	  text-align:center;
+	  font-size:16px;
+	  padding:0 2% 0 2%;
+	  text-decoration:none;
+	
+	}
+	
+    }
+    
+    
+    
+    
+    
+    @media (max-width:750px){
+
+        body{
+            
+            background-color:  rgb(45, 46, 48);
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment:fixed;
+            background-size:cover;
+		
+        }
+		
+		    .footerclass{
+
+        position:static;
+		bottom: 0;
+		align:center;
+		width:100%;
+        text-align:center;
+        display: inline;
+  		align-items: center;
+  		justify-content: center;
+        color:white;
+
+    }
+
+		
         
 		
 		
@@ -148,29 +187,7 @@ html {
 
     }
 
-      .topnav{
-
-            overflow:hidden;
-	    padding: 1% 10px 10px 5px;
-          
-        }
-	
-	.topnav .icon{
-	
-	  display:none;
-	  
-	  
-	}
-	
-	.topnav a {
-	  
-	  float:center;
-	  text-align:center;
-	  font-size:16px;
-	  padding:0 2% 0 2%;
-	  text-decoration:none;
-	
-	}
+      
 
         .searchfromli{
   
