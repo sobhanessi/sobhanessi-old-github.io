@@ -1,0 +1,383 @@
+@charset "UTF-8";
+
+*{font-family: 'Source Code Pro', monospace;}
+
+html {
+    scroll-behavior: smooth;
+    }
+
+    
+    @media (max-width:750px){
+
+        body{
+            
+            width:auto;
+            
+            background-color:  rgb(45, 46, 48);
+
+        }
+        
+        
+        .topnav{
+
+	    
+	    position:sticky;
+	    float:none;
+	    display:block;
+	    text-align:center;
+	    font-size:18px;
+	    padding: 2% 1% 1% 2%;
+	    
+
+	 }
+	 
+	 .topnav a:not(:first-child) {
+	 
+	    display:none;
+	    
+	    
+	 }
+	 
+	 .topnav a.icon {
+	 
+	    display:block;
+	    float:right;
+	    padding : 2% 1% 1% 2%;
+	    
+	    
+	 }
+	 
+	 .topnav.responsive {
+	 
+	    position:sticky;
+	 
+	 }
+	 
+	 .topnav.responsive .icon{
+	 
+	    position:absolute;
+	    right:0;
+	    top:0;
+	    padding : 2% 1% 1% 2%;
+	    
+	 }
+	 
+	 .topnav.responsive a {
+	 
+	    display:block;
+	    float:none;
+	    text-align:center;
+	 
+	 }
+		
+		.footerclass{
+
+        position: static;
+		    bottom: 0;
+		
+		    width:100%;
+        text-align:center;
+        
+  		  align-items: center;
+  		  justify-content: center;
+        color:white;
+    }
+    
+
+		
+		
+		.searchfromli{
+  
+            color:black;
+            float: center;
+            
+            
+          }
+		
+		
+            
+            .articlenewspage{
+
+                
+                width:95%;
+                margin:10px 15px 5px 15px;
+                padding:5px 5px 5px 5px; 
+        
+              }
+            .newstopspan{
+
+                
+                width:80%;
+                height: 45%;
+                margin:10px 15px 5px 35px;
+                padding:5px 5px 5px 5px;
+                
+                 
+        
+              }
+
+              #spanleft{
+
+                background-image : url("hardwarefornewsspan.jpeg");
+                display: block;
+                height:80%;
+                width: 90%;
+                margin-right: 5%;
+                margin-left: 5%;
+
+              }
+        
+              #spanright{
+                
+                background-image : url("softwareforspannews.jpg");
+                display: block;
+                height: 80%;
+                width: 90%;
+                margin-right: 5%;
+                margin-left: 5%;
+                
+              }
+        
+              
+              .imgnewspage{
+        
+                height:25%; 
+                width:25%;
+                float:left;
+                padding:1px 15px 1px 5px;
+                margin:1px 5px 1px 5px;
+        
+              }
+              .paragraphnewspage{
+                
+                width:70%;
+                text-align:justify;
+                margin: 0 auto;
+                padding:2px 15px 5px 20px;
+                color:rgb(255, 255, 240);
+        
+              }
+        
+              .headingnewspage{
+        
+                width:80%;
+                text-align:justify;
+                margin: 0 auto;
+				        padding:2px 15px 5px 20px;
+                color:rgb(30, 144, 255);
+        
+              }
+		
+			 .divborder{
+			 	
+				border-left:1px solid white;
+				border-right:1px solid white;
+			 }
+	}
+
+
+    @media (min-width:751px){
+
+        body{
+            
+            background-color: rgb(45, 46, 48);
+	          background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment:fixed;
+            background-size:cover;
+
+        }
+        
+        
+        .topnav{
+
+            overflow:hidden;
+	    padding: 1% 10px 10px 5px;
+          
+        }
+	
+	.topnav .icon{
+	
+	  display:none;
+	  
+	  
+	}
+	
+	.topnav a {
+	  
+	  float:center;
+	  text-align:center;
+	  font-size:16px;
+	  padding:0 2% 0 2%;
+	  text-decoration:none;
+	
+	}
+		
+		.footerclass{
+
+        position: static;
+		bottom: 0;
+		
+		width:100%;
+        text-align:center;
+        
+  		align-items: center;
+  		justify-content: center;
+        color:white;
+    }
+
+     
+
+        .searchfromli{
+  
+            color:black;
+            float: right;
+            
+            
+        }
+		
+		
+        
+              .articlenewspage{
+        
+                width:80%;
+                margin:10px 20px 5px 20%;
+                padding:5px 5px 5px 5px; 
+        
+              } 
+
+              .newstopspan{
+        
+                width:90%;
+                
+                margin:10px 10% 5px 10%;
+                padding:5px 10% 5px 5px;
+                display: inline-block;
+                
+        
+              } 
+
+              #spanleft{
+
+                background-image : url("hardwarefornewsspan.jpeg");
+                float: left;
+                width: 45%;
+                height: 100%;
+                display: block;
+
+              } 
+
+              #spanright{
+
+                background-image : url("softwareforspannews.jpg");
+                float: right;
+                width: 45%;
+                height: 100%;
+                display: block;
+              }
+        
+              .imgnewspage{
+        
+                height:10%; 
+                width:5%;
+                float:left;
+                padding:1px 1px 1px 5px;
+                margin:5px 20px 5px 10px;
+        
+              }
+        
+              .paragraphnewspage{
+        
+        			width:80%;
+                text-align:justify;
+                margin:0 auto;
+                padding:20px 1px 5px 1px;
+                color:rgb(255, 255, 240);
+        
+              }
+        
+              .headingnewspage{
+                
+				        width:80%;
+                text-align:justify;
+                padding:1px 1px 5px 5px;
+				        margin: 0 auto;
+                color:rgb(30, 144, 255);
+        
+              }
+	}
+
+
+
+    a:link {
+
+        color: rgb(247, 156, 46);
+        text-decoration: none;
+      }
+
+
+    a:visited {
+
+        color: rgb(247, 156, 46);
+        text-decoration: none;
+
+      }
+
+
+    a:hover {
+
+        color: rgb(38, 131, 168);
+        text-decoration: none;
+
+      }
+
+
+    a:active {
+
+        color: blue;
+        text-decoration: none;
+
+      }
+
+  
+    header, section, footer, nav, aside, main, article, figure, form {
+        
+        display: block; 
+      
+      }
+
+    ul li {
+      
+        display: inline;
+        
+      }
+  
+
+    
+    hr{
+
+        color:white;
+
+      }
+
+    .topnav{
+
+    overflow:hidden;
+		position:sticky;
+		top:0;
+		width:100%;
+		margin:0 auto;
+		
+		background-color:rgb(45, 46, 48);
+		
+    
+    }
+
+    .searchfrom{
+
+        display: inline;
+        color: wheat;
+    }
+
+    
+
