@@ -292,8 +292,8 @@ html {
         
               .imgnewspage{
         
-                height:10%; 
-                width:5%;
+                height:100px; 
+                width:100px;
                 float:left;
                 padding:1px 1px 1px 5px;
                 margin:5px 20px 5px 10px;
