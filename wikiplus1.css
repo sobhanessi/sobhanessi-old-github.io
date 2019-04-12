@@ -5,62 +5,90 @@
 html {
   scroll-behavior: smooth;
 }
+@media screen and (max-width:950px) {
+    
+      .topnav{
 
-@media screen and (max-width: 950px) {
-  .topnav {
-    position: sticky;
-    float: none;
-    display: block;
-    text-align: center;
-    font-size: 18px;
-    padding: 2% 1% 1% 2%;
-  }
+	    
+	    position:sticky;
+	    float:none;
+	    display:block;
+	    text-align:center;
+	    font-size:18px;
+	    padding: 2% 1% 1% 2%;
+	    
 
-  .topnav a:not(:first-child) {
-    display: none;
-  }
+	 }
+	 
+	 .topnav a:not(:first-child) {
+	 
+	    display:none;
+	    
+	    
+	 }
+	 
+	 .topnav a.icon {
+	 
+	    display:block;
+	    float:right;
+	    padding : 2% 1% 1% 2%;
+	    
+	    
+	 }
+	 
+	 .topnav.responsive {
+	 
+	    position:sticky;
+	 
+	 }
+	 
+	 .topnav.responsive .icon{
+	 
+	    position:absolute;
+	    right:0;
+	    top:0;
+	    padding : 2% 1% 1% 2%;
+	    
+	 }
+	 
+	 .topnav.responsive a {
+	 
+	    display:block;
+	    float:none;
+	    text-align:left;
+	 
+	 }
+    
+    }
+    
+    
+    @media screen and (min-width:951px){
+	
+	  .topnav{
 
-  .topnav a.icon {
-    display: block;
-    float: right;
-    padding: 2% 1% 1% 2%;
-  }
-
-  .topnav.responsive {
-    position: sticky;
-  }
-
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 2% 1% 1% 2%;
-  }
-
-  .topnav.responsive a {
-    display: block;
-    float: none;
-    text-align: center;
-  }
-}
-@media screen and (min-width: 951px) {
-  .topnav {
-    overflow: hidden;
-    padding: 1% 10px 10px 5px;
-  }
-
-  .topnav .icon {
-    display: none;
-  }
-
-  .topnav a {
-    float: center;
-    text-align: center;
-    font-size: 16px;
-    padding: 0 2% 0 2%;
-    text-decoration: none;
-  }
-}
+            overflow:hidden;
+	    padding: 1% 10px 10px 5px;
+          
+        }
+	
+	.topnav .icon{
+	
+	  display:none;
+	  
+	  
+	}
+	
+	.topnav a {
+	  
+	  float:center;
+	  text-align:left;
+	  font-size:16px;
+	  padding:0 2% 0 2%;
+	  text-decoration:none;
+	
+	}
+	
+    }
 @media (max-width: 750px) {
   body {
     width: auto;

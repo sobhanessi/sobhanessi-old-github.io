@@ -61,7 +61,7 @@ html {
 	 
 	    display:block;
 	    float:none;
-	    text-align:center;
+	    text-align:left;
 	 
 	 }
     
@@ -87,7 +87,7 @@ html {
 	.topnav a {
 	  
 	  float:center;
-	  text-align:center;
+	  text-align:left;
 	  font-size:16px;
 	  padding:0 2% 0 2%;
 	  text-decoration:none;
