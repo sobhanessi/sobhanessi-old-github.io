@@ -17,4 +17,5 @@ you can find my list in about me page.
 also I published my website in the internet: sobhanesfandiari.com
 
 
-
+new : I gave up grid bootstraps because of issues that I couldn't solve it,
+but I wrote those codes by myself which my website work perfectly and fine.

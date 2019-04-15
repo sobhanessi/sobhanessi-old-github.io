@@ -96,7 +96,7 @@ html {
   }
 
   .footerclass {
-    position: static;
+    position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -233,10 +233,12 @@ html {
     color: dodgerblue;
   }
 
-  .row {
+  .divrow {
     margin-right: 2%;
     margin-left: 10%;
+    margin-bottom:2%;
     float: center;
+    text-align:center;
   }
 }
 a:link {
@@ -280,5 +282,14 @@ ul li {
   display: inline;
   color: wheat;
 }
+
+#aright , #aleft {
+
+
+  text-align:center;
+  font-size:26px;
+
+}
+
 
 /*# sourceMappingURL=wikiplus1.css.map */

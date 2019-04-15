@@ -207,7 +207,7 @@ html {
         body{
             
             background-color: rgb(45, 46, 48);
-	          background-repeat: no-repeat;
+	    background-repeat: no-repeat;
             background-position: center top;
             background-attachment:fixed;
             background-size:cover;
@@ -283,7 +283,7 @@ html {
         
               .paragraphnewspage{
         
-        			width:80%;
+		width:85%;
                 text-align:justify;
                 margin:0 auto;
                 padding:20px 1px 5px 1px;
@@ -293,20 +293,22 @@ html {
         
               .headingnewspage{
                 
-				        width:80%;
+		width:85%;
                 text-align:justify;
                 padding:1px 1px 5px 5px;
-				        margin: 0 auto;
+		margin: 0 auto;
                 color:rgb(30, 144, 255);
         
               }
               
               
-              .row {
+              .divrow {
               
                 margin-right:2%;
                 margin-left:10%;
+		margin-bottom:2%;
                 float:center;
+		text-align:center;
               
               }
               
@@ -386,4 +388,9 @@ html {
         color: wheat;
     }
 
+    #aright , #aleft {
     
+	text-align:center;
+	font-size:26px;
+    
+    }
