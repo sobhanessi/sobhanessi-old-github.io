@@ -15,8 +15,7 @@
 	}
 	
 	
-	
-	@media screen and (max-width:950px) {
+    @media screen and (max-width:950px) {
     
       .topnav{
 
@@ -25,6 +24,7 @@
 	    float:none;
 	    display:block;
 	    text-align:center;
+	    
 	    font-size:18px;
 	    padding: 2% 1% 1% 2%;
 	    
@@ -42,7 +42,7 @@
 	 
 	    display:block;
 	    float:right;
-	    padding : 2% 1% 1% 2%;
+	    
 	    
 	    
 	 }
@@ -76,7 +76,9 @@
     @media screen and (min-width:951px){
 	
 	  .topnav{
-
+	    
+	    float:center;
+	    text-align:center;
             overflow:hidden;
 	    padding: 1% 10px 10px 5px;
           
@@ -100,6 +102,8 @@
 	}
 	
     }
+    
+    
 	
     @media screen and (max-width:750px){
 
