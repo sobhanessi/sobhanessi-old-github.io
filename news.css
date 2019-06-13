@@ -68,7 +68,7 @@ html {
     
     @media screen and (min-width:951px){
 	
-	  .topnav{
+	.topnav{
 	    
 	    float:center;
 	    text-align:center;
@@ -111,33 +111,21 @@ html {
         
         
 		
-		.footerclass{
+	.footerclass{
 
-        position: static;
-		    bottom: 0;
-		
-		    width:100%;
-        text-align:center;
-        
-  		  align-items: center;
-  		  justify-content: center;
-        color:white;
+	    position: static;
+	    bottom: 0;
+	    width:100%;
+	    text-align:center;
+	    align-items: center;
+	    justify-content: center;
+	    color:white;
     }
     
 
 		
-		
-		.searchfromli{
-  
-            color:black;
-            float: center;
             
-            
-          }
-		
-		
-            
-            .articlenewspage{
+	.articlenewspage{
 
                 
                 width:95%;
@@ -147,7 +135,7 @@ html {
               }
             
 
-              #aleft{
+	#aleft{
 
                 background-image : url("hardwarefornewsspan.jpeg");
                 display: block;
@@ -158,7 +146,7 @@ html {
 
               }
         
-              #aright{
+	#aright{
                 
                 background-image : url("softwareforspannews.jpg");
                 display: block;
@@ -170,7 +158,7 @@ html {
               }
         
               
-              .imgnewspage{
+	.imgnewspage{
         
                 height:25%; 
                 width:25%;
@@ -179,7 +167,7 @@ html {
                 margin:1px 5px 1px 5px;
         
               }
-              .paragraphnewspage{
+	.paragraphnewspage{
                 
                 width:70%;
                 text-align:justify;
@@ -189,21 +177,21 @@ html {
         
               }
         
-              .headingnewspage{
+	.headingnewspage{
         
                 width:80%;
                 text-align:justify;
                 margin: 0 auto;
-				        padding:2px 15px 5px 20px;
-                color:rgb(30, 144, 255);
+		padding:2px 15px 5px 20px;
+                color:#ff6266;
         
               }
 		
-			 .divborder{
+	.divborder{
 			 	
-				border-left:1px solid white;
-				border-right:1px solid white;
-			 }
+		border-left:1px solid white;
+		border-right:1px solid white;
+	    }
 	}
 
 
@@ -302,7 +290,7 @@ html {
                 text-align:justify;
                 padding:1px 1px 5px 5px;
 		margin: 0 auto;
-                color:rgb(30, 144, 255);
+                color:#ff6266;
         
               }
               

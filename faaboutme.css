@@ -4,6 +4,8 @@
 
 html {
     scroll-behavior: smooth;
+    
+
     }
 
     div{
@@ -72,12 +74,12 @@ html {
     
     @media screen and (min-width:951px){
 	
-	.topnav{
+	  .topnav{
 	    
 	    width:100%;
 	    float:center;
 	    text-align:center;
-            overflow:hidden;
+        overflow:hidden;
 	    padding: 1% 10px 10px 5px;
           
         }
@@ -123,6 +125,7 @@ html {
           height:60%;
           margin: 0 5% 5% 5%;
           
+          
 
         }
 
@@ -138,13 +141,16 @@ html {
           color: white;
           width: 90%;
           margin:0 10% 5% 5%;
+          direction:rtl;
 
         }
 
         .headingaboutmepage{
           width: 90%;
-          color:#ff6266;
+          color:rgb(30, 144, 255);
           margin:0 10% 5% 5%;
+          direction:rtl;
+          
         }
 	
 		
@@ -163,48 +169,50 @@ html {
 			
 
         }
-		
-
-
-        
-
-        .searchfromli{
-  
-            color:black;
-            float: right;
-            
-            
-        }
 	
-		   
-
         .imgaboutmepage{
 
           width: 40%;
           height:30%;
-          margin: 0 10% 0 30%;
+          margin-left:35%;
+          direction:rtl;
           
+		  
 
         }
 
         .articleaboutmepage{
 
-          width: 85%;
-          padding: 0 0 0 25%;
-	  float:center;
+          
+          width: 85%;    
+          overflow:hidden;
+          
+         
+          
           
         }
 
         .paragraphaboutmepage{
 
           color: white;
-          width: 65%;
+          
+          width: 80%;
+          direction:rtl;
+          float:right;
+          
+          
 
         }
 
         .headingaboutmepage{
-
-          color:#ff6266;
+			
+		  width:90%;
+		  
+          color:rgb(30, 144, 255);
+          float:right;
+          direction:rtl;
+          
+          
         }
 		
 	}
@@ -264,10 +272,10 @@ html {
 
       .topnav{
 
-    overflow:hidden;
-		position:sticky;
+		overflow:hidden;
+		
 		top:0;
-		width:100%;
+		
 		margin:0 auto;
 		
 		background-color:rgb(45, 46, 48);
@@ -296,3 +304,4 @@ html {
         
 }
 	
+
